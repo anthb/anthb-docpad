@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="wrapper">
+    <div class="grid">
+        <section class="grid__item one-whole desk--eight-twelfths l-post-list">
+
+			<%- @content %>
+            
+        </section><!--
+
+    	<%- @partial('me') %>
+</div>

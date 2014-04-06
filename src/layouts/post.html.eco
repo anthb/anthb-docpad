@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="wrapper">
+    <div class="grid">
+        <section class="grid__item one-whole desk--eight-twelfths l-post-list">
+
+			<%- @partial('post', {title: @document.title, url: @document.url, tags: @document.tags, date: @document.date, content: @content, individualPost: true }) %>
+            <%- @partial('disqus') if @document.comments and @disqusShortName %>
+            
+        </section><!--
+
+    	<%- @partial('me') %>
+</div>
+
