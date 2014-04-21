@@ -5,6 +5,7 @@ date: 2014-03-30 17:00
 comments: true
 tags: docpad
 snippet: "<p>I must confess as a professional web developer, this website has been empty for close to two years... oops. Here we are a quarter of the way through 2014, and I'm back!</p>Some time ago I was an avid WordPress fan, I used it at work and personally to power this website. I loved WordPess for its ease of use, big community and lots of really great plugins. Mid 2011 I made the switch from general web developer where I was using PHP a lot in day to day work, to specialise in front-end development. It was around this time that I spent less and less time using WordPress and started noticing that my WordPress site kept getting hacked.<p>"
+featureImg: "/images/docpad.jpg"
 ---
 
 I must confess as a professional web developer, this website has been empty for close to two years... oops. Here we are a quarter of the way through 2014, and I'm back!

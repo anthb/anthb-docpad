@@ -69,7 +69,7 @@ docpadConfig = {
 		disqusShortName: 'anthb'
 
 		# Google+ settings
-		googlePlusId: '103974853049200513652'
+		#googlePlusId: 'ID HERE'
 
 		getTagUrl: (tag) ->
 			slug = tag.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')
