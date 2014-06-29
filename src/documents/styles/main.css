@@ -1708,6 +1708,7 @@ a:hover {
 
 .post-title {
   margin-bottom: 0;
+  margin-top: 0.25em;
 }
 .post-title a {
   transition: all 0.5s;
@@ -1720,4 +1721,5 @@ a:hover {
 .post-date {
   color: #828282;
   font-size: 0.85em;
+  margin-bottom: 0.25em;
 }

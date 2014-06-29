@@ -43,7 +43,7 @@
     <footer id="l-footer" class="l-footer">
         <div class="grid">
             <div class="grid__item one-whole">
-                <p>&copy; 2014 Anthony Bordonaro. Nobody reads this stuff, but you should follow me on <a href="#">twitter</a></p>
+                <p>&copy; 2014 Anthony Bordonaro. Nobody reads this copyright footer stuff, but you should follow me on <a href="https://twitter.com/bordy_7" target="_blank">twitter</a></p>
             </div>
         </div>
     </footer>
