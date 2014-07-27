@@ -1722,6 +1722,7 @@ code {
   overflow: hidden;
   display: inline-block;
   position: relative;
+  vertical-align: bottom;
   transition: color 0.35s;
 }
 .post a:before {
