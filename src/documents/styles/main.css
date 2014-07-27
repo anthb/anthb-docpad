@@ -44,6 +44,19 @@ a:hover {
   text-decoration: underline;
 }
 
+pre {
+  border: 1px solid #adadad;
+  background: #f5f5f5;
+  padding: 1em;
+}
+
+code {
+  word-wrap: break-word;
+  color: #1B1B1B;
+  font-size: 0.8em;
+  line-height: 1.75em;
+}
+
 /*------------------------------------*\
     $CSSWIZARDRY-GRIDS
 \*------------------------------------*/
@@ -1705,17 +1718,32 @@ a:hover {
   padding-bottom: 1em;
   border-bottom: 1px solid #828282;
 }
+.post a {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  transition: color 0.35s;
+}
+.post a:before {
+  width: 100%;
+  position: absolute;
+  background: rgba(7, 52, 194, 0.5);
+  content: '';
+  height: 100%;
+  z-index: -1;
+  transition: left 0.35s;
+  left: -100%;
+}
+.post a:hover {
+  color: #2642b3;
+}
+.post a:hover:before {
+  left: 0%;
+}
 
 .post-title {
   margin-bottom: 0;
   margin-top: 0.25em;
-}
-.post-title a {
-  transition: all 0.5s;
-}
-.post-title:hover > a {
-  background: #268de2;
-  color: white;
 }
 
 .post-date {

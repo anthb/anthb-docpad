@@ -6,7 +6,7 @@ cacheable: false
     <% if @individualPost: %>
     <h1 class="post-title"><%= @title %></h1>
     <% else: %>
-    <h1 class="post-title"><a href='<%= @url %>'><%= @title %></a></h1>
+    <h2 class="post-title"><a href='<%= @url %>'><%= @title %></a></h2>
     <% end %>
     <div class="post-date"><%=  @moment(@date).format('MMM Do, YYYY') %></div>
     <% if @featureImg?: %>
